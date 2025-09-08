@@ -44,7 +44,7 @@ impl IBCEurekaRouteClient {
             "amount_in": amount.into(),
             "allow_unsafe": true,
             "allow_multi_tx": true,
-            "go_fast": true,
+            "go_fast": false,
             "smart_relay": true,
             "smart_swap_options": {
                 "split_routes": true,
